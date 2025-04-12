@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .outer{
+            height: 100px;
+            width: 100px;
+            background:linear-gradient(45deg,#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+            border-radius: 20%;
+            display: grid;
+            place-items: center;
+        }
+        .inner{
+            height: 70px;
+            width: 70px;
+            background-color:white;
+            border-radius: 20%;
+            display: grid;
+            place-items: center;
+        }
+        .third{
+            height: 55px;
+            width:  55px;
+            background:linear-gradient(45deg,#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+            border-radius: 20%;
+            display: grid;
+            place-items: center;
+
+        }
+        .outercircle{
+            height: 35px;
+            width:  35px;
+            background-color:white;
+            border-radius: 100%;
+            display: grid;
+            place-items: center;
+            margin-top: -20px;
+        }
+        .innercircle{  
+            height: 25px;
+            width:  25px;
+            background:linear-gradient(45deg,#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+            border-radius: 100%;
+        }
+        .dot{
+            height: 5px;
+            width:  5px;
+            background-color:white ;
+            border-radius: 100%;
+            position: relative;
+            top: -2px;
+            left: 18px; 
+            }
+           
+
+    </style>
+    <div class="outer">
+      <div class="inner">
+        <div class="third">
+            <div class="dot"></div>
+            <div class="outercircle">
+                <div class="innercircle"></div>
+            </div>
+       </div>
+   </div>
+</div>
+</body>
+</html>
